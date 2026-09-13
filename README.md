@@ -66,7 +66,7 @@ a {
 }
 <nav class="tabs">
   <a href="#home">خانه 🏠</a>
-  <a href="#products">محصولات 👗</a>
+  <a href="#products">محصولات💞</a>
   <a href="#categories">دسته‌بندی‌ها 🌸</a>
   <a href="#offers">تخفیف‌ها 🎁</a>
   <a href="#about">درباره ما 💗</a>
