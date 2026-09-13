@@ -64,3 +64,41 @@ a {
   border-radius: 50px;
   padding: 7px 14px;
 }
+<nav class="tabs">
+  <a href="#home">خانه 🏠</a>
+  <a href="#products">محصولات 👗</a>
+  <a href="#categories">دسته‌بندی‌ها 🌸</a>
+  <a href="#offers">تخفیف‌ها 🎁</a>
+  <a href="#about">درباره ما 💗</a>
+  <a href="#contact">تماس با ما 📞</a>
+  <a href="#cart">سبد خرید 🛍️</a>
+</nav>
+
+<style>
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  direction: rtl;
+  padding: 15px;
+  background: #fff8fc;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: #d95788;
+  background: #ffe7f0;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.tabs a:hover {
+  background: #f58bb0;
+  color: white;
+  transform: translateY(-3px);
+}
+</style>
